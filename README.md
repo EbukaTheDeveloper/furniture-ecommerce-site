@@ -1,1 +1,1 @@
-# furniture-ecommerce-site
+# Ecommerce Furniture Site
