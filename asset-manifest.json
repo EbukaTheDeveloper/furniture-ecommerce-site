@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/furniture-ecommerce-site/static/css/main.319ce0ef.css",
-    "main.js": "/furniture-ecommerce-site/static/js/main.63190f6e.js",
-    "static/js/787.48b51168.chunk.js": "/furniture-ecommerce-site/static/js/787.48b51168.chunk.js",
+    "main.css": "/furniture-ecommerce-site/static/css/main.3e40e8d4.css",
+    "main.js": "/furniture-ecommerce-site/static/js/main.a018eb72.js",
+    "static/media/Rubik-Light.ttf": "/furniture-ecommerce-site/static/media/Rubik-Light.2e276ea61cbb12f3915d.ttf",
     "static/media/logo.svg": "/furniture-ecommerce-site/static/media/logo.c99c764a6dd555b5173a16890c60e821.svg",
     "index.html": "/furniture-ecommerce-site/index.html",
-    "main.319ce0ef.css.map": "/furniture-ecommerce-site/static/css/main.319ce0ef.css.map",
-    "main.63190f6e.js.map": "/furniture-ecommerce-site/static/js/main.63190f6e.js.map",
-    "787.48b51168.chunk.js.map": "/furniture-ecommerce-site/static/js/787.48b51168.chunk.js.map"
+    "main.3e40e8d4.css.map": "/furniture-ecommerce-site/static/css/main.3e40e8d4.css.map",
+    "main.a018eb72.js.map": "/furniture-ecommerce-site/static/js/main.a018eb72.js.map"
   },
   "entrypoints": [
-    "static/css/main.319ce0ef.css",
-    "static/js/main.63190f6e.js"
+    "static/css/main.3e40e8d4.css",
+    "static/js/main.a018eb72.js"
   ]
 }
