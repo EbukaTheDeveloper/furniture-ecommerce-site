@@ -5,9 +5,12 @@ export default function hamburgerMenu() {
         navContainer.classList.add('nav-menu');
     }
     function hideMenu() {
-        const navContainer = document.querySelector('.nav-menu');
-        navContainer.classList.toggle('nav-menu');
-        navContainer.classList.add('hide-nav-menu');
+        if (window.innerWidth < 800) {
+            console.log('21');
+            const navContainer = document.querySelector('.nav-menu');
+            navContainer.classList.toggle('nav-menu');
+            navContainer.classList.add('hide-nav-menu');
+        }
     }
     return { showMenu, hideMenu }
 }

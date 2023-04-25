@@ -1,5 +1,5 @@
 import Logo from "./logo"
-export default function HomepageFooter() {
+export default function Footer() {
     return (
         <article>
             <footer>

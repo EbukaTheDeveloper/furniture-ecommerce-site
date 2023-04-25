@@ -7,8 +7,8 @@
     --button-color: #ce9a62;
 }
 
-.white-bg {
-    background: white;
+.zinc-white {
+    background: #fafafa;
 }
 
 header {
@@ -21,6 +21,11 @@ header {
 svg {
     width: 24px;
     height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 a,
@@ -37,6 +42,15 @@ li {
     list-style: none;
 }
 
+.link {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
 
 .hide-nav-menu {
     display: none;
@@ -84,8 +98,12 @@ li {
 h1 {
     text-align: center;
     color: var(--dark-wood);
+    font-size: 2em;
 }
 
+.heading-text {
+    padding: 0 1rem;
+}
 
 .welcome-text {
     text-align: justify;
@@ -196,7 +214,7 @@ h1 {
 }
 
 .review-section {
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 .review-section h2 {
@@ -284,6 +302,10 @@ form button {
     border-radius: 8px;
 }
 
+.page-footer {
+    padding: 2rem 0 0.8rem;
+}
+
 .newsletter-section {
     margin-bottom: 3rem;
 }
@@ -311,7 +333,7 @@ footer>div:nth-child(1) {
 
 .footer-nav>ul {
     display: flex;
-    gap: 0.8rem;
+    gap: 1rem;
     color: var(--grayish-brown);
     font-size: 0.8rem;
 }
@@ -329,11 +351,9 @@ footer path {
     font-size: 0.8rem;
 }
 
-.white-bg article:nth-child(2) {
-    margin-bottom: 1.4rem;
+.page-footer article:nth-child(2) {
     padding: 0 1rem;
 }
-
 
 footer svg {
     width: 20px;
@@ -343,6 +363,12 @@ footer svg {
 .social-media-links {
     display: flex;
     gap: 0.2rem;
+}
+
+@media screen and (min-width: 350px) {
+    .collection_2_title+img {
+        padding-left: 2rem;
+    }
 }
 
 @media screen and (min-width: 700px) {
@@ -362,6 +388,14 @@ footer svg {
     .collection_link {
         position: absolute;
         bottom: 20px;
+    }
+
+    .footer-nav>ul {
+        gap: 3rem;
+    }
+
+    .social-media-links {
+        gap: 0.8rem;
     }
 }
 
@@ -397,15 +431,20 @@ footer svg {
         padding: 1rem 2.5rem 2rem;
     }
 
+    .home-page-wrapper>div {
+        padding-left: 2.5rem;
+    }
+
     header+div {
         padding-left: 2.5rem;
     }
 
-    h1 {
+    .heading-text {
         text-align: start;
         width: 800px;
         font-size: 3rem;
         margin-bottom: 0;
+        padding: 0;
     }
 
     .hero-section {
@@ -445,8 +484,10 @@ footer svg {
     }
 
     .collection_1,
-    .collection_2 {
-        padding-left: 1rem;
+    .collection_2,
+    .collection_1_link,
+    .collection_2_link {
+        padding-left: 2.5rem;
         padding-right: 1rem;
     }
 

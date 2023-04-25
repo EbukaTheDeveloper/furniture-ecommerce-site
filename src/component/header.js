@@ -1,6 +1,7 @@
-import hamburgerMenu from "../../utility/hamburger-menu"
+import hamburgerMenu from "../utility/hamburger-menu"
 import Logo from "./logo";
-export default function HeaderComponent() {
+import { Link } from "react-router-dom";
+export default function HeaderComponent({ handleClick }) {
   const menuManipulator = hamburgerMenu();
   return (
     <header>
@@ -21,19 +22,19 @@ export default function HeaderComponent() {
         <nav>
           <ul>
             <li>
-              <a className="link home-link">home</a>
+              <Link to="/" className="link home-link" onClick={menuManipulator.hideMenu}>Home</Link>
             </li>
             <li>
-              <a className="link about-link">about us</a>
+              <Link to="about" className="link about-link" onClick={menuManipulator.hideMenu}>About us</Link>
             </li>
             <li>
-              <a className="link product-link">Products</a>
+              <Link to="products" className="link product-link" onClick={menuManipulator.hideMenu}>Products</Link>
             </li>
             <li>
-              <a className="link faq-link">faqs</a>
+              <Link to="faq" className="link faq-link" onClick={menuManipulator.hideMenu}>Faqs</Link>
             </li>
             <li>
-              <a className="link contact-link">contact us</a>
+              <Link to="contact" className="link contact-link" onClick={menuManipulator.hideMenu}>Contact us</Link>
             </li>
           </ul>
         </nav>
@@ -43,7 +44,7 @@ export default function HeaderComponent() {
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,4C13.09,4 16,6.91 16,10.5C16,12.12 15.41,13.6 14.43,14.73L20.08,20.38L19.37,21.09L13.72,15.44C12.59,16.41 11.11,17 9.5,17C5.91,17 3,14.09 3,10.5C3,6.91 5.91,4 9.5,4M9.5,5C6.46,5 4,7.46 4,10.5C4,13.54 6.46,16 9.5,16C12.54,16 15,13.54 15,10.5C15,7.46 12.54,5 9.5,5Z" /></svg>
         </button>
         <div>
-          <button className="shopping-bag-btn">
+          <button className="shopping-bag-btn" onClick={handleClick}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5,7H8V5L10,3H13L15,5V7H18C19.66,7 21,8.34 21,10V18C21,19.66 19.66,21 18,21H5C3.34,21 2,19.66 2,18V10C2,8.34 3.34,7 5,7M10.41,4L9,5.41V7H14V5.41L12.59,4H10.41M5,8C3.9,8 3,8.9 3,10V18C3,19.1 3.9,20 5,20H18C19.1,20 20,19.1 20,18V10C20,8.9 19.1,8 18,8H5Z" /></svg>
           </button>
           <span></span>

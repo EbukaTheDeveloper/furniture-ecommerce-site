@@ -1,9 +1,9 @@
-
+import { Link } from "react-router-dom"
 export default function WelcomeSection() {
   return (
     <div>
       <div>
-        <h1>Modern Furniture For Modern Living Style</h1>
+        <h1 className="heading-text">Modern Furniture For Modern Living Style</h1>
       </div>
       <div className="hero-section">
         <div>
@@ -25,9 +25,9 @@ export default function WelcomeSection() {
         </p>
       </div>
       <div className="shop-now-section">
-        <a className="shop-now">
+        <Link to="/products" className="shop-now">
           <span>Shop Now</span>
-        </a>
+        </Link>
       </div>
     </div>
   )
