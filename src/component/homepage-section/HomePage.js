@@ -6,6 +6,7 @@ import CustomerReview from './customer-review';
 import '../../css/homepage.css';
 
 
+
 const HomePage = () => {
     return (
         <div className="home-page-wrapper">

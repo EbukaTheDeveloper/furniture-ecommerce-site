@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import '../css/shopping-bag-lists.css';
 
-export default function ShoppingBagList({ myRef, handleClick }) {
+export default function ShoppingBagList({ myClass, handleClick, ariaHidden, overlayClick }) {
     const lists = 0;
     return (
-        <div className="overlay" ref={myRef}>
+        <div className={myClass} onClick={overlayClick} aria-hidden={ariaHidden}>
             <div className="modal">
                 <div className="close-menu_wrapper">
                     <button className="close-menu-btn" onClick={handleClick}>

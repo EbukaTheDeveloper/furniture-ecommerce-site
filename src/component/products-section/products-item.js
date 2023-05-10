@@ -1,9 +1,9 @@
-export default function ProductsItem({ productName, price, imgSrc, srcset, width, height, alt, myClass, myImgClass }) {
+export default function ProductsItem({ productName, price, imgSrc, srcset, width, height, alt, myClass, myImgClass, handleClick }) {
     return (
         <article className={myClass}>
             <div>
                 <div className="add-to-cart">
-                    <button>Add to Bag</button>
+                    <button onClick={handleClick}>Add to Bag</button>
                 </div>
                 <span className="product-name">{productName}</span>
                 <span className="product-price">{price}</span>

@@ -1,13 +1,22 @@
+import { useState } from "react"
 export default function NewsletterComponent() {
+    const [inputValue, setInputValue] = useState('');
+    function handleInputChange(event) {
+        setInputValue(event.target.value);
+    }
+    function handleClick(e) {
+        e.preventDefault();
+        setInputValue('');
+    }
     return (
         <article className="newsletter-section">
             <div>
                 <h2 className="newsletter-title">Signup to receive updates about new products</h2>
                 <div>
-                    <form>
+                    <form className='newsletter-form'>
                         <div>
-                            <input type="email" id="mail" placeholder="Your Email" value="" name="_email" />
-                            <button type="submit">
+                            <input type="email" id="mail" placeholder="Your Email" value={inputValue} name="_email" aria-label="Email" onChange={handleInputChange} />
+                            <button type="submit" onClick={handleClick}>
                                 Subscribe
                             </button>
                         </div>

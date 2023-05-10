@@ -46,6 +46,20 @@ li {
     color: black;
     text-decoration: none;
     width: 100%;
+    padding-bottom: 1rem;
+}
+
+.focus-underline {
+    transition: color 1s ease-out;
+}
+
+.focus-underline:hover {
+    color: var(--button-color);
+}
+
+.focus-underline:focus,
+.focus-underline:active {
+    border-bottom: 2px solid var(--button-color);
 }
 
 button {
@@ -120,14 +134,15 @@ h1 {
 .shop-now-section {
     text-align: center;
     margin-bottom: 4rem;
+    padding-top: 2rem;
 }
 
 .shop-now {
     display: inline-block;
-    border: 1px solid var(--wood);
-    padding: 0.6rem 0.8rem;
-    color: var(--wood);
-    font-weight: 500;
+    border: 1px solid var(--button-color);
+    padding: 0.8rem 2.5rem;
+    color: var(--button-color);
+    font-weight: 600;
 }
 
 .shop-now span {
@@ -261,22 +276,18 @@ h1 {
 }
 
 
-/**.profile-pics+div {
-    padding-top: 3rem;
-}*/
-
-form {
+.newsletter-form {
     padding: 0 1rem;
 }
 
-form div {
+.newsletter-form div {
     display: flex;
     border: 1px solid #fdba74;
     border-radius: 10px;
     padding: 0.3rem 0.3rem;
 }
 
-input {
+.newsletter-form input {
     padding: 1rem 0 1rem 0.4rem;
     width: 100%;
 }
@@ -285,18 +296,18 @@ input:focus {
     outline: none;
 }
 
-form button {
+.newsletter-form button {
     padding: 1rem 2rem;
 }
 
-input,
-form button {
+.newsletter-form input,
+.newsletter-form button {
     border: none;
     background: none;
     font-size: 1.1rem;
 }
 
-form button {
+.newsletter-form button {
     background: var(--button-color);
     color: white;
     border-radius: 8px;

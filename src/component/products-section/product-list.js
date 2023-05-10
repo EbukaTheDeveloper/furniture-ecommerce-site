@@ -7,7 +7,9 @@ const productList = [
         productType: 'chair',
         width: '200',
         height: '200',
-        className: 'product-img chair-img1'
+        className: 'product-img chair-img1',
+        searchName: 'eero aarnio ball chair',
+        href: '/products/chair',
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,e_bgremoval,f_auto,q_auto,w_600/v1681559433/b62afcfe1f5f4fd486ce806a9968752a_mxpef8.png',
@@ -17,18 +19,10 @@ const productList = [
         productType: 'chair',
         width: '200',
         height: '200',
-        className: 'product-img chair-img2'
+        className: 'product-img chair-img2',
+        searchName: 'ramen stool chair',
+        href: '/products/chair',
     },
-    /**{
-        imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,e_bgremoval,q_auto,f_auto,w_300/v1681560909/pexels-hormel-bed6_l7khxu.jpg',
-        srcset: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,e_bgremoval,q_auto,f_auto,w_300/v1681560909/pexels-hormel-bed6_l7khxu.jpg 300w, https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,e_bgremoval,f_auto,q_auto,w_600/v1681560909/pexels-hormel-bed6_l7khxu.jpg 600w,https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,e_bgremoval,f_auto,q_auto,w_900/v1681560909/pexels-hormel-bed6_l7khxu.jpg 900w, https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,e_bgremoval,f_auto,q_auto,w_1200/v1681560909/pexels-hormel-bed6_l7khxu.jpg 1200w',
-        productName: 'Bed',
-        price: '$400',
-        productType: 'bed',
-        width: '200',
-        height: '250',
-        className: 'product-img bed-img1'
-    },**/
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,e_bgremoval,f_auto,q_auto,w_300/v1681559391/0993431cb4574f4dbe6e11cff4771690_jdvsdm.png',
         srcset: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,e_bgremoval,f_auto,q_auto,w_300/v1681559391/0993431cb4574f4dbe6e11cff4771690_jdvsdm.png 300w, https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,e_bgremoval,f_auto,q_auto,w_600/v1681559391/0993431cb4574f4dbe6e11cff4771690_jdvsdm.png 600w, https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,e_bgremoval,f_auto,q_auto,w_900/v1681559391/0993431cb4574f4dbe6e11cff4771690_jdvsdm.png, 900w, https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,e_bgremoval,f_auto,q_auto,w_1200/v1681559391/0993431cb4574f4dbe6e11cff4771690_jdvsdm.png 1200w',
@@ -37,7 +31,9 @@ const productList = [
         productType: 'chair',
         width: '130',
         height: '109',
-        className: 'product-img chair-img3'
+        className: 'product-img chair-img3',
+        searchName: 'chair',
+        href: '/products/chair',
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,e_bgremoval,f_auto,q_auto,w_300/v1681565042/2ae29e3f54b540e4ac20a9f7c7c2a8aa_zjrar2.png',
@@ -47,7 +43,9 @@ const productList = [
         productType: 'table',
         width: '200',
         height: '180',
-        className: 'product-img table-img1'
+        className: 'product-img table-img1',
+        searchName: 'porada table',
+        href: '/products/table'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,e_bgremoval,f_auto,q_auto,w_300/v1681559366/9124f1224c384c9c987b8cb01d0f2e7a_s78n3q.png',
@@ -57,7 +55,9 @@ const productList = [
         productType: 'chair',
         width: '200',
         height: '200',
-        className: 'product-img chair-img4'
+        className: 'product-img chair-img4',
+        searchName: 'chair',
+        href: '/products/chair'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,e_bgremoval,f_auto,q_auto,w_300/v1681559309/0bc325b93f0f4e368c6330167d11e8bd_koobwm.png',
@@ -67,7 +67,9 @@ const productList = [
         productType: 'chair',
         width: '200',
         height: '170',
-        className: 'product-img chair-img5'
+        className: 'product-img chair-img5',
+        searchName: 'stool chair',
+        href: '/products/chair'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_auto,w_300/v1681851508/28-chair-png-image_l95c17.png',
@@ -77,7 +79,9 @@ const productList = [
         productType: 'chair',
         width: '100',
         height: '88',
-        className: 'product-img chair-img6'
+        className: 'product-img chair-img6',
+        searchName: 'chair',
+        href: '/products/chair'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_auto,w_300/v1681851487/19-sofa-png-image_n6lb0u.png',
@@ -87,7 +91,9 @@ const productList = [
         productType: 'sofa',
         width: '200',
         height: '98',
-        className: 'product-img sofa-img1'
+        className: 'product-img sofa-img1',
+        searchName: 'sofa',
+        href: '/products/sofa'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_auto,w_300/v1681851467/14-red-sofa-png-image_cjclyn.png',
@@ -97,7 +103,9 @@ const productList = [
         productType: 'sofa',
         width: '200',
         height: '98',
-        className: 'product-img sofa-img2'
+        className: 'product-img sofa-img2',
+        searchName: 'red sofa',
+        href: '/products/sofa'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_auto,w_300/v1681851435/13-wooden-table-png-image_lyi7b9.png',
@@ -107,7 +115,9 @@ const productList = [
         productType: 'table',
         width: '170',
         height: '100',
-        className: 'product-img table-img2'
+        className: 'product-img table-img2',
+        searchName: 'wooden table',
+        href: '/products/table'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_auto,w_300/v1681851414/12-table-png-image_mhdcea.png',
@@ -117,7 +127,9 @@ const productList = [
         productType: 'table',
         width: '150',
         height: '150',
-        className: 'product-img table-img3'
+        className: 'product-img table-img3',
+        searchName: 'silver table',
+        href: '/products/table'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_auto,w_300/v1681851392/12-sofa-png-image_v88pak.png',
@@ -127,7 +139,9 @@ const productList = [
         productType: 'sofa',
         width: '222',
         height: '98',
-        className: 'product-img sofa-img3'
+        className: 'product-img sofa-img3',
+        searchName: 'yellow sofa',
+        href: '/products/sofa'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_auto,w_300/v1681851364/12-chair-png-image_rdzpuk.png',
@@ -137,7 +151,9 @@ const productList = [
         productType: 'chair',
         width: '100',
         height: '149',
-        className: 'product-img chair-img7'
+        className: 'product-img chair-img7',
+        searchName: 'chair',
+        href: '/products/chair'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_auto,w_300/v1681851333/11-table-png-image_cqug8x.png',
@@ -147,7 +163,9 @@ const productList = [
         productType: 'table',
         width: '130',
         height: '182',
-        className: 'product-img table-img4'
+        className: 'product-img table-img4',
+        searchName: 'table',
+        href: '/products/table'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_80,w_300/v1681851302/11-sofa-png-image_qxq8w3.png',
@@ -157,7 +175,9 @@ const productList = [
         productType: 'sofa',
         width: '200',
         height: '192',
-        className: 'product-img sofa-img4'
+        className: 'product-img sofa-img4',
+        searchName: 'sofa',
+        href: '/products/sofa'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_80,w_300/v1681851280/11-chair-png-image_bgami5.png',
@@ -167,7 +187,9 @@ const productList = [
         productType: 'chair',
         width: '90',
         height: '171',
-        className: 'product-img chair-img8'
+        className: 'product-img chair-img8',
+        searchName: 'chair',
+        href: '/products/chair'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_80,w_300/v1681851264/9-sofa-png-image_shojls.png',
@@ -177,7 +199,9 @@ const productList = [
         productType: 'sofa',
         width: '222',
         height: '97',
-        className: 'product-img sofa-img5'
+        className: 'product-img sofa-img5',
+        searchName: 'green sofa',
+        href: '/products/sofa'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_80,w_300/v1681851243/8-red-sofa-png-image_joas9d.png',
@@ -187,7 +211,9 @@ const productList = [
         productType: 'sofa',
         width: '200',
         height: '98',
-        className: 'product-img sofa-img6'
+        className: 'product-img sofa-img6',
+        searchName: 'red sofa',
+        href: '/products/sofa'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_80,w_300/v1681851219/7-chair-png-image_r4hsvb.png',
@@ -197,7 +223,9 @@ const productList = [
         productType: 'chair',
         width: '100',
         height: '98',
-        className: 'product-img chair-img9'
+        className: 'product-img chair-img9',
+        searchName: 'chair',
+        href: '/products/chair'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_80,w_300/v1681851199/6-black-sofa-png-image_exkapq.png',
@@ -207,7 +235,9 @@ const productList = [
         productType: 'sofa',
         width: '259',
         height: '98',
-        className: 'product-img sofa-img7'
+        className: 'product-img sofa-img7',
+        searchName: 'black sofa',
+        href: '/products/sofa'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,w_300,q_80/v1681851180/5-table-png-image_vogfoj.png',
@@ -217,7 +247,9 @@ const productList = [
         productType: 'table',
         width: '151',
         height: '98',
-        className: 'product-img table-img5'
+        className: 'product-img table-img5',
+        searchName: 'table',
+        href: '/products/table'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,w_300,q_80/v1681851162/5-sofa-png-image_yaxjll.png',
@@ -227,7 +259,9 @@ const productList = [
         productType: 'sofa',
         width: '259',
         height: '98',
-        className: 'product-img sofa-img8'
+        className: 'product-img sofa-img8',
+        searchName: 'sofa',
+        href: '/products/sofa'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,h_98,w_300,q_80/v1681851138/4-sofa-png-image_ftjcvk.png',
@@ -237,7 +271,9 @@ const productList = [
         productType: 'sofa',
         width: '224',
         height: '98',
-        className: 'product-img sofa-img9'
+        className: 'product-img sofa-img9',
+        searchName: 'sofa',
+        href: '/products/sofa'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,w_300,q_80/v1681851120/3-orange-sofa-png-image_fr2uuq.png',
@@ -247,7 +283,9 @@ const productList = [
         productType: 'sofa',
         width: '201',
         height: '98',
-        className: 'product-img sofa-img10'
+        className: 'product-img sofa-img10',
+        searchName: 'orange sofa',
+        href: '/products/sofa'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,w_300,q_80/v1681851100/3-chair-png-image_hig9vt.png',
@@ -257,7 +295,9 @@ const productList = [
         productType: 'chair',
         width: '200',
         height: '149',
-        className: 'product-img chair-img10'
+        className: 'product-img chair-img10',
+        searchName: 'chair',
+        href: '/products/chair'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,w_300,q_80/v1681851082/3-armchair-png-image_ghydbn.png',
@@ -267,7 +307,9 @@ const productList = [
         productType: 'chair',
         width: '150',
         height: '150',
-        className: 'product-img chair-img11'
+        className: 'product-img chair-img11',
+        searchName: 'arm chair',
+        href: '/products/chair'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,w_300,q_80/v1681851066/2-wooden-table-png-image_atnmby.png',
@@ -277,7 +319,9 @@ const productList = [
         productType: 'table',
         width: '133',
         height: '98',
-        className: 'product-img table-img6'
+        className: 'product-img table-img6',
+        searchName: 'wooden table',
+        href: '/products/table'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,w_300,q_80/v1681851050/2-sofa-png-image_gef89o.png',
@@ -287,7 +331,9 @@ const productList = [
         productType: 'sofa',
         width: '171',
         height: '98',
-        className: 'product-img sofa-img11'
+        className: 'product-img sofa-img11',
+        searchName: 'sofa',
+        href: '/products/sofa'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,q_80,w_300/v1681851010/2-chair-png-image_mycqix.png',
@@ -297,7 +343,9 @@ const productList = [
         productType: 'chair',
         width: '95',
         height: '200',
-        className: 'product-img chair-img12'
+        className: 'product-img chair-img12',
+        searchName: 'chair',
+        href: '/products/chair'
     },
     {
         imgSrc: 'https://res.cloudinary.com/dvcx5l1vb/image/upload/c_scale,f_auto,w_300,q_80/v1681850964/1-red-sofa-png-image_nectws.png',
@@ -307,7 +355,9 @@ const productList = [
         productType: 'sofa',
         width: '180',
         height: '100',
-        className: 'product-img sofa-img12'
+        className: 'product-img sofa-img12',
+        searchName: 'red sofa',
+        href: '/products/sofa'
     },
 ]
 

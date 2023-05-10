@@ -1,18 +1,26 @@
 .overlay {
-    display: none;
     position: fixed;
-    /* background: rgba(0, 0, 0, 0.4); */
     width: 100vw;
     height: 100vh;
     z-index: 3;
-    background: #fafafa;
     top: 0;
+    transform: scaleX(0);
+    transition: transform .3s linear;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.overlay.visible {
+    transform: scaleX(1);
 }
 
 .modal {
     padding-top: 2rem;
     height: 100vh;
+    width: 100%;
     z-index: 4;
+    background: #fafafa;
+    position: fixed;
+    right: 0;
 }
 
 .modal svg {
@@ -66,14 +74,7 @@
 }
 
 @media screen and (min-width: 790px) {
-    .overlay {
-        background: rgba(0, 0, 0, 0.8);
-    }
-
     .modal {
-        position: fixed;
-        background: #fafafa;
-        right: 0;
         width: 33%;
         padding: 2.5rem 2.5rem 1rem;
     }

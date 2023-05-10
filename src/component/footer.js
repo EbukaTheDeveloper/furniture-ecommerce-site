@@ -1,4 +1,5 @@
 import Logo from "./logo"
+import { Link } from "react-router-dom"
 export default function Footer() {
     return (
         <article>
@@ -10,13 +11,13 @@ export default function Footer() {
                     <nav className="footer-nav">
                         <ul>
                             <li>
-                                <a>About</a>
+                                <Link to="/about">About</Link>
                             </li>
                             <li>
-                                <a>Product</a>
+                                <Link to="/products">Product</Link>
                             </li>
                             <li>
-                                <a>Contact</a>
+                                <Link to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </nav>

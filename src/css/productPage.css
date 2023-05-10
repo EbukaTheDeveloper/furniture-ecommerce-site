@@ -7,6 +7,13 @@
 .product-links-wrapper a {
     text-decoration: none;
     color: rgb(80, 77, 77);
+    font-weight: 500;
+}
+
+.products-link:hover,
+.products-link:focus,
+.products-link:active {
+    color: black;
 }
 
 .products-wrapper {

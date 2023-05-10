@@ -40,10 +40,23 @@
 }
 
 .question-container svg {
-    width: 28px;
+    width: 32px;
+    height: 32px;
 }
 
-.answer-wrapper,
-.close-reply-btn {
+.answer-wrapper {
     display: none;
+}
+
+.answer-wrapper.visible {
+    display: block;
+}
+
+.open-faq {
+    transition: transform .3s ease-in-out;
+    transform: rotate(0deg);
+}
+
+.open-faq.animated {
+    transform: rotate(45deg);
 }
