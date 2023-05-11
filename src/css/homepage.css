@@ -115,6 +115,13 @@ h1 {
     font-size: 2em;
 }
 
+.home-page-wrapper,
+header,
+footer {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
 .heading-text {
     padding: 0 1rem;
 }
@@ -250,8 +257,11 @@ h1 {
 
 .bio-section {
     display: flex;
-    gap: 1.5rem;
     align-items: center;
+}
+
+.profile-pics {
+    margin-right: 1rem;
 }
 
 .bio-section span {
@@ -290,27 +300,24 @@ h1 {
 .newsletter-form input {
     padding: 1rem 0 1rem 0.4rem;
     width: 100%;
+    font-size: 0.7rem;
 }
 
 input:focus {
     outline: none;
 }
 
-.newsletter-form button {
-    padding: 1rem 2rem;
-}
-
 .newsletter-form input,
 .newsletter-form button {
     border: none;
     background: none;
-    font-size: 1.1rem;
 }
 
 .newsletter-form button {
     background: var(--button-color);
     color: white;
     border-radius: 8px;
+    font-size: 1rem;
 }
 
 .page-footer {
@@ -332,7 +339,7 @@ input:focus {
 }
 
 footer {
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
 footer>div:nth-child(1) {
@@ -344,9 +351,12 @@ footer>div:nth-child(1) {
 
 .footer-nav>ul {
     display: flex;
-    gap: 1rem;
     color: var(--grayish-brown);
     font-size: 0.8rem;
+}
+
+.footer-nav>ul li:not(.footer-nav>ul li:last-child) {
+    margin-right: 0.7rem;
 }
 
 footer path {
@@ -373,7 +383,14 @@ footer svg {
 
 .social-media-links {
     display: flex;
-    gap: 0.2rem;
+}
+
+.social-media-links span:not(.social-media-links span:last-child) {
+    margin-right: 0.5rem;
+}
+
+.logo-section>.link {
+    padding-bottom: 0;
 }
 
 @media screen and (min-width: 350px) {
@@ -401,8 +418,8 @@ footer svg {
         bottom: 20px;
     }
 
-    .footer-nav>ul {
-        gap: 3rem;
+    .footer-nav>ul li:not(.footer-nav>ul li:last-child) {
+        margin-right: 2rem;
     }
 
     .social-media-links {

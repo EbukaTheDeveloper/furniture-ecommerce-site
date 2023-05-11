@@ -80,7 +80,6 @@
 
 .collections_wrapper ul {
     display: flex;
-    gap: 2rem;
 }
 
 .collections_wrapper li {
@@ -88,6 +87,10 @@
     width: 75px;
     height: 35px;
     border-radius: 30px;
+}
+
+.collections_wrapper li:not(.collections_wrapper li:last-child) {
+    margin-right: 1.5rem;
 }
 
 .collections_wrapper li a {

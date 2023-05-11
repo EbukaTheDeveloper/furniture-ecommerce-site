@@ -1,13 +1,16 @@
 .product-links-wrapper {
     display: flex;
     justify-content: center;
-    gap: 2rem;
 }
 
 .product-links-wrapper a {
     text-decoration: none;
     color: rgb(80, 77, 77);
     font-weight: 500;
+}
+
+.product-links-wrapper li:not(.product-links-wrapper li:last-child) {
+    margin-right: 1.3rem;
 }
 
 .products-link:hover,

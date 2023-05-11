@@ -8,7 +8,7 @@ export default function SearchSection({ myClass, handleClick, handleOverlayClick
     const [inputValue, setInputValue] = useState('');
     function handleInputChange(e) {
         const target = e.target.value;
-        setInputValue(target);
+        setInputValue(target.toLowerCase());
     }
     const lists = productList.filter(list => list.searchName.includes(inputValue));
     return (
